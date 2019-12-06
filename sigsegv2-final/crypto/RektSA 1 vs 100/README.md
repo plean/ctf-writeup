@@ -18,7 +18,7 @@ Une fois que $phi$ est trouve on peut en deduire $p$ et $q$.
 Comme nous connaissons $r$ nous pouvons simplifier le probleme on factorisant $N/r$. 
 Pour ce faire nous utiliserons la [definition](https://fr.wikipedia.org/wiki/Indicatrice_d'Euler#Calcul) de l'indicatrice d'Euler:
 
-$$\varphi{(n)} = (p - 1)(q - 1) = pq - p - q + 1 = (n + 1) - (p + q)$$
+![img1](http://www.sciweavers.org/upload/Tex2Img_1575649517/render.png)
 
 Nous pouvons donc ecrire:
 
