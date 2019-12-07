@@ -11,7 +11,7 @@ port = 9002
 re = remote(url, port)
 
 def func(atmp):
-    print('\b' * (12 + math.ceil(math.log(atmp, 10))) + 'Attempt %d/100' % atmp, end='')
+    print('\b' * (13 + math.floor(math.log(atmp, 10))) + 'Attempt %d/100' % atmp, end='')
 
     N = int(re.recvline()[3:-1])
     partial_phi = int(re.recvline()[5:-1])
