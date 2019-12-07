@@ -18,31 +18,31 @@ Une fois `phi` trouvé on peut en déduire `p` et `q`.
 Comme nous connaissons `r` nous pouvons simplifier le problème en factorisant `N / r`. 
 Pour ce faire nous utiliserons la [définition](https://fr.wikipedia.org/wiki/Indicatrice_d'Euler#Calcul) de l'indicatrice d'Euler:
 
-![img1](http://www.sciweavers.org/upload/Tex2Img_1575649517/render.png)
+![img1](./images/1.png)
 
 Nous pouvons donc écrire:
 
-![img2](http://www.sciweavers.org/upload/Tex2Img_1575649623/render.png)
+![img2](./images/2.png)
 
 Nous savons d'après [RSA](https://fr.wikipedia.org/wiki/Chiffrement_RSA#Cr%C3%A9ation_des_cl%C3%A9s) que:
 
-![img3](http://www.sciweavers.org/upload/Tex2Img_1575649676/render.png)
+![img3](./images/3.png)
 
 En ramplaçant `q` par `(n + 1) − φ(n) − p` nous pouvons déduire que:
 
-![img4](http://www.sciweavers.org/upload/Tex2Img_1575649761/render.png)
+![img4](./images/4.png)
 
 En réarrangeant un peu on trouve:
 
-![img5](http://www.sciweavers.org/upload/Tex2Img_1575649810/render.png)
+![img5](./images/5.png)
 
 Ceci est une équation quadratique en `p`, avec:
 
-![img6](http://www.sciweavers.org/upload/Tex2Img_1575649909/render.png)
+![img6](./images/6.png)
 
 Ce qui peut être facilement résolu en utilisant la formule quadratique:
 
-![img7](http://www.sciweavers.org/upload/Tex2Img_1575649947/render.png)
+![img7](./images/7.png)
 
 Les deux solutions pour `p` seront les facteurs premier de `n`, `p` et `q`.
 
